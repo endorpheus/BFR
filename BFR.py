@@ -5,10 +5,10 @@ import string
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QVBoxLayout, QWidget, QPushButton, QLabel,
     QLineEdit, QMessageBox, QCheckBox, QSpinBox, QHBoxLayout, QTreeView, QFileSystemModel,
-    QMenuBar, QMenu, QAction
+    QMenuBar, QMenu
 )
 from PySide6.QtCore import Qt, QModelIndex
-from PySide6.QtGui import QIcon
+from PySide6.QtGui import QIcon, QAction
 from collections import defaultdict
 from about_dialog import AboutDialog  # Import the AboutDialog class
 
