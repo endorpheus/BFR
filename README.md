@@ -1,10 +1,11 @@
 # BFR - Bulk File Renamer
 
-![BFR Logo](icons/robot_icon.png)
+<p><img src="icons/robot-lg.png" alt="BFR" height=400 align="right">
+</p>
 
 BFR (Bulk File Renamer) is a powerful and user-friendly desktop application for renaming multiple files simultaneously. Built with Python and PySide6, BFR offers a graphical interface that makes bulk file renaming operations simple and efficient.
 
-## Features
+### Features
 
 - **Intuitive GUI**: Easy-to-use interface with file browser for selecting files to rename.
 - **Flexible Renaming Options**:
@@ -14,7 +15,7 @@ BFR (Bulk File Renamer) is a powerful and user-friendly desktop application for 
   - Generate random filenames
 - **Conflict Resolution**: Automatically handles filename conflicts to prevent overwriting.
 - **File Preview**: See the changes before applying them.
-- **Cross-Platform**: Works on Windows, macOS, and Linux.
+- **Cross-Platform**: Works on Linux (Windows and Mac untested)
 
 ## Installation
 
@@ -35,7 +36,7 @@ BFR (Bulk File Renamer) is a powerful and user-friendly desktop application for 
    cd BFR
    ```
 
-3. Install the required dependencies:
+3. Install the required dependencies (if available, else just check the terminal for what's missing):
    ```
    pip install -r requirements.txt
    ```
@@ -53,7 +54,7 @@ BFR (Bulk File Renamer) is a powerful and user-friendly desktop application for 
    - Enter a rename pattern (if desired)
    - Check "Add numbering" to include sequential numbers
    - Adjust number padding if using numbering
-   - Check "Keep original file extensions" to preserve file types
+   - Check "Keep original file extensions" to preserve file types. (**This is the recommended setting unless you know what you are doing**)
    - Check "Generate random filenames" for random name generation
 
 4. Click "Rename Files" to apply the changes.
@@ -62,14 +63,9 @@ BFR (Bulk File Renamer) is a powerful and user-friendly desktop application for 
 
 Contributions to BFR are welcome! Please feel free to submit a Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
-- Thanks to all contributors who have helped to improve BFR.
-- Icon made by [Freepik](https://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com/).
+- Icon generated with [ArtBreeder AI](https://artbreeder.com) edited in [GIMP](https://gimp.org).
 
 ## Contact
 
